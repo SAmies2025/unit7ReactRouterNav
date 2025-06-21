@@ -1,6 +1,35 @@
 .App {
   text-align: center;
+
 }
+
+.navbarHeader
+{
+  width: 25%;
+}
+
+.navbarLinks
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-container {
+  display: flex;
+}
+
+.nav-bar {
+  width: 25%; /* Fixed width for nav */
+  background-color: #f0f0f0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -17,7 +46,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
